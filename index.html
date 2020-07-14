@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+    <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/resources/css/bootstrap.css">
+</head>
+<body>
+    <div class="bg-primary ">
+        <ul class="nav justify-content-center navbar-light">
+            <li class="nav-item">
+                <a href="" class="nav-link text-white">Home</a>
+            </li>
+            <li class="nav-item">
+                <a  class="nav-link text-white" id="notes">Notes</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-white" id="admin_panel">Admin Panel</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-white" id="about">About</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container col-10 mt-5" id="input_division">
+    <div class="mb-3">
+            <label for="input_title" class="form-label">Title</label>
+            <input type="text" id="text_title" class="form-control" placeholder="Enter the title here"/>
+            <label for="input_text" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="input_text" rows="10"></textarea>
+          </div>
+          <div class="container">
+              <button class="btn btn-primary" id="save">Save</button>
+            </div>
+    </div>
+    <div id="notes_div" class="container mt-5" style="display: none;">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Sl No
+                    </th>
+                    <th>
+                        Title
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="table_body">
+                
+            </tbody>
+        </table>
+    </div>
+            <script src="/resources/js/brain.js"></script>
+    <script src="/resources/js/bootstrap.min.js"></script>
+    <script src="/resources/js/bootstrap.js"></script>
+</body>
+</html>

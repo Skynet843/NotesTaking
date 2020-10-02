@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Note
+    </title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav>
+        <nav class="navbar navbar-dark bg-dark justify-content-between">
+            <a class="navbar-brand font-weight-bold">MAGIC NOTE</a>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" id="search_bar" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" id="search_button" type="submit">Search</button>
+            </form>
+          </nav>
+    </nav>
+
+    <!-- add note section -->
+    <section>
+      <div class=" container mt-3 w-75">
+        <h1 class=" text-primary">ADD NEW NOTE</h1>
+        <hr class="">
+        <form>
+          <div class="form-group">
+            <label for="note_title">Title Of Note</label>
+           <input type="text" class=" form-control w-75" id="note_title">
+          </div>
+          <div class="form-group">
+            <label for="note_box">Your Note</label>
+           <textarea name="note_box" id="note_box" cols="30" class=" form-control w-75" rows="5"></textarea>
+          </div>
+          <button id="add-note" class="btn btn-primary font-weight-bold">ADD NOTE</button>
+        </form> 
+        <hr>
+      </div>
+    </section>
+    <!-- show note -->
+    <section>
+      <div class=" container mt-3">
+        <h3 class=" text-warning text-center">SHOW NOTES</h3>
+        <hr class="">
+        <div id="note_area" class="row">
+
+
+
+          <div class="col-lg-4 col-md-4 col-12 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">niet dicta! t corrupti, at doloribus incidunt sit totam iusto consectetur sed nostrum quae fuga! tq facere sit atque commodi tempore?ead-in to additional content.</p>
+                <a href="#" class="btn btn-danger">DELETE NOTE</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          
+          
+        </div>
+        
+        
+        
+        </div>
+      </div>
+    </section>
+ <script src="/resources/brain.js"></script>
+</body>
+</html>
